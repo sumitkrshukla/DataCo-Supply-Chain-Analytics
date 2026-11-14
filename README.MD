@@ -227,6 +227,20 @@ Provides interactive analysis of delivery performance and operational risk.
 
 The decomposition tree allows further investigation of late orders across shipping modes, markets, product categories and customer segments.
 
+## Power BI Dashboard Preview
+
+### 1. Executive Overview
+
+![Executive Overview](06_PowerBI/Executive_Overview/Executive_Overview.png)
+
+### 2. Shipping Performance
+
+![Shipping Performance](06_PowerBI/Shipping_Performance/Shipping_Performance.png)
+
+### 3. Root Cause Drill-Down
+
+![Root Cause Drill-Down](06_PowerBI/Root_Cause_Drill_Down/Root_Cause_Drill_Down.png)
+
 ## 4. Key Business Insights
 
 ### Overall Business Performance
