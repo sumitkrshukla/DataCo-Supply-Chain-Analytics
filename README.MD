@@ -27,7 +27,13 @@ The project focuses on converting raw supply-chain data into meaningful insights
 
 **Dataset used in this implementation:** 999 order-item records.
 
-The repository includes a raw sample dataset for demonstrating the analytical workflow. The complete original dataset is not included in this repository.
+The analysis was performed using a 999-row sample of the DataCo SMART Supply Chain dataset.
+
+**Dataset availability:** The raw dataset is not included in this repository because its redistribution terms have not been verified.
+
+To reproduce the analysis, users must obtain the dataset separately and place it inside the `01_Data_Sample/` directory using the expected filename: `Dataco_sample..xlsx`.
+
+The complete original dataset is not included.
 
 ### Dataset Summary
 
@@ -339,40 +345,42 @@ Business Insights and Recommendations
 
 ```text
 Data_Analytics_Portfolio/
-|
+│
+├── .gitignore
 ├── README.MD
-|
+│
 ├── 01_Data_Sample/
-|   └── Dataco_sample..xlsx
-|
-├── 02_Data_Cleaned_Sample/
-|   └── Dataco_Cleaned_sample.xlsx
-|
+│   └── .gitkeep
+│
 ├── 03_Python/
-|   ├── end to end project.py
-|   ├── end to end project_original.py
-|   ├── load_data_to_mysql.py
-|   └── output/
-|       ├── Dataco_Cleaned_Improved.xlsx
-|       ├── Data_Quality_Report.xlsx
-|       └── visualizations/
-|
+│   ├── end to end project.py
+│   ├── load_data_to_mysql.py
+│   └── output/
+│       └── visualizations/
+│           ├── Delivery_Status_Distribution.png
+│           ├── Late_Delivery_Risk.png
+│           ├── Sales_Distribution.png
+│           └── Shipping_Mode_Distribution.png
+│
 ├── 04_Visualizations/
-|
+│   ├── Delivery_status.jpeg
+│   ├── Late_Delivery_risk.jpeg
+│   ├── Sales_Distribution.jpeg
+│   └── Shipping_mode.jpeg
+│
 ├── 05_SQL/
-|   ├── dataco_supply_chain_Analysis.sql
-|   ├── dataco_supply_chain_Analysis_original.sql
-|   └── dataco_supply_chain_Analysis_Improved.sql
-|
+│   └── dataco_supply_chain_Analysis_Improved.sql
+│
 ├── 06_PowerBI/
-|   ├── DataCo_Supply_Chain_Analytics.pbix
-|   ├── PowerBi project (1).pbix
-|   ├── Executive_Overview/
-|   ├── Shipping_Performance/
-|   └── Root_Cause_Drill_Down/
-|
+│   ├── Executive_Overview/
+│   │   └── Executive_Overview.png
+│   ├── Shipping_Performance/
+│   │   └── Shipping_Performance.png
+│   └── Root_Cause_Drill_Down/
+│       └── Root_Cause_Drill_Down.png
+│
 └── 07_Report/
-    └── DataCo_Global_Supply_Chain_Project_Report.pdf
+    └── DataCo_Supply_Chain_Analytics_Report.pdf
 ```
 
 ## 8. How to Run the Project
