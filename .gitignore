@@ -1,0 +1,36 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Exclude unrelated / unverified dataset
+02_Data_Cleaned_Sample/
+
+# Exclude original project backups
+*_original.*
+*Original*
+
+# Exclude old Power BI backup
+06_PowerBI/PowerBi project (1).pbix
+
+# Dataset files - redistribution terms not verified
+01_Data_Sample/*.xlsx
+03_Python/output/*.xlsx
+06_PowerBI/*.pbix
