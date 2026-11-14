@@ -419,19 +419,7 @@ mysql -u root -p < "05_SQL/dataco_supply_chain_Analysis_Improved.sql"
 - The dataset contains incomplete monthly coverage in 2018.
 - Business recommendations indicate areas for investigation and do not prove causal relationships.
 
-## 10. Credits and Attribution
-
-**Original project author:** Thawfeeqa S.
-
-**Original repository:** https://github.com/Thawfeeqa/Data_Analytics_Portfolio
-
-This project builds upon the original author's DataCo Supply Chain Analytics work.
-
-The implementation includes additional data-quality checks, an improved Python cleaning workflow, MySQL-based data loading and SQL analysis, revised DAX calculations, and enhancements to the Power BI dashboards.
-
-The original author and source repository are credited in recognition of the starting work.
-
-## 11. Project Outcome
+## 10. Project Outcome
 
 This project demonstrates an end-to-end Data Analyst workflow involving:
 
@@ -446,3 +434,5 @@ This project demonstrates an end-to-end Data Analyst workflow involving:
 - Data-driven recommendations.
 
 The project demonstrates how raw supply-chain data can be transformed into an analytical solution for understanding business performance, profitability and delivery efficiency.
+
+This project is an independently extended implementation inspired by an existing DataCo analytics portfolio project.
